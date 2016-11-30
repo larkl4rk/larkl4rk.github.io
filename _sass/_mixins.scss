@@ -1,0 +1,27 @@
+@mixin box-sizing($value) {
+  -webkit-box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
+}
+
+@mixin border-radius($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin transition-duration($value) {
+  -webkit-transition-duration: $value;
+  -moz-transition-duration: $value;
+  -ms-transition-duration: $value;
+  -o-transition-duration: $value;
+  transition-duration: $value;
+}

@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<article class="page">
-
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
+<div class="page-header">{{ page.title }}</div>
+<article class="about">
+  <div class="about-content">
     {{ content }}
+  </div>
+
+  <div class="about-footer">
+    {% include disqus.html %}
   </div>
 </article>
