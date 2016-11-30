@@ -156,9 +156,13 @@ a {
   margin-bottom: 30px;
 }
 
-.post-content a {
-  &:hover {
+.post-content {
+  a:hover {
     text-decoration: underline;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
