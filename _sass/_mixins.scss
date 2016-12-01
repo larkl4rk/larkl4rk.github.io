@@ -25,3 +25,9 @@
   -o-transition-duration: $value;
   transition-duration: $value;
 }
+
+@mixin box-shadow($x, $y, $color) {
+  -moz-box-shadow: $x, $y, $color;
+  -webkit-box-shadow: $x, $y, $color;
+  box-shadow: $x, $y, $color;
+}
