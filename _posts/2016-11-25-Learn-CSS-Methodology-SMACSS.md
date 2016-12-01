@@ -74,5 +74,6 @@ CSS의 규칙은 총 다섯 가지로 구분된다.
 
 ----------
 참고 문헌:
+
  - SMACSS 복잡한 CSS를 관리하는 5가지 스타일 가이드
  - [https://smacss.com/](https://smacss.com/)
