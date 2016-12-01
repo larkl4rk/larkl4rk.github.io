@@ -1,13 +1,13 @@
+@import "mixins";
 
 .highlight {
-  background-color: #efefef;
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
   overflow: scroll;
+  font-size: 16px;
+  @include box-shadow(0.1, 0.1, rgba(0, 0, 0, 0.1));
 }
 
 code {
