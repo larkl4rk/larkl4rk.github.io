@@ -59,17 +59,10 @@ a {
   text-decoration: none;
 }
 
-.header-profile__image {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  @include border-radius(2px);
-  vertical-align: middle;
-}
-
 .header-profile__name {
   color: #000;
   font-size: 18px;
+  font-weight: bold;
   vertical-align: middle;
 }
 
